@@ -1,0 +1,56 @@
+--#en keys
+--LEFT_M=1
+--RIGHT=3
+--LR=2
+--#RU
+--left 1 right 3 lr 2
+
+--keycodes
+superL = '#133'; 
+ctrL = '#37'
+ctrR= '#105'
+altL= '#64'
+altR= '#108'
+shiftL = '#50'
+shiftR = '#62'
+tab = '#23'
+enter = '#36'
+numplus = '#86'
+numminus = '#82'
+minus = '#20'
+plus = '#21'
+-- \ = '#51'
+-- ; = '#47'
+-- ' = '#48'
+-- [ = '#34'
+-- ] = '#35'
+-- , = '#59'
+-- . = '#60'
+-- / = '#61'
+--ENGLISH, MOTHERFUCKER!!!
+ key_q = '#24'
+ key_w = '#25'
+ key_e = '#26'
+ key_r = '#27'
+ key_t = '#28'
+ key_y = '#29'
+ key_u = '#30'
+ key_i = '#31'
+ key_o = '#32'
+ key_p = '#33'
+ key_a = '#38'
+ key_s = '#39'
+ key_d = '#40'
+ key_f = '#41'
+ key_g = '#42'
+ key_h = '#43'
+ key_j = '#44'
+ key_k = '#45'
+ key_l = '#46'
+ key_z = '#52'
+ key_x = '#53'
+ key_c = '#54'
+ key_v = '#55'
+ key_b = '#56'
+ key_n = '#57'
+ key_m = '#58'
