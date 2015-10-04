@@ -14,7 +14,7 @@ theme.confdir                       = os.getenv("HOME") .. "/.config/awesome/the
 theme.wallpaper                     = theme.confdir .. "/wall.jpg"
 
 theme.font                          = "Terminus 8"
---theme.taglist_font                =
+--theme.taglist_font                  = "Terminus 8: bold"
 theme.menu_bg_normal                = "#000000"
 theme.menu_bg_focus                 = "#000000"
 theme.bg_normal                     = "#000000"
@@ -44,33 +44,43 @@ theme.menu_fg_focus                 = "#ff8c00"
 theme.menu_bg_normal                = "#05050577"
 theme.menu_bg_focus                 = "#050505dd"
 
+--theme.tagcolor = {"#ff8c00", "#ff8c00", "#ff8c00", "#ff8c00", "#ff8c00", "#ff8c00", "#ff8c00", "#ff8c00", "#ff8c00" }
+--theme.tagcolor[1] = "#ff8c00"
+--theme.tagcolor[2] = theme.fg.red
+--theme.tagcolor[3] = theme.fg.green
+--theme.tagcolor[4] = theme.fg.yellow
+--theme.tagcolor[5] = theme.fg.blue
+--theme.tagcolor[6] = theme.fg.magenta
+--theme.tagcolor[7] = theme.fg.cyan
+--theme.tagcolor[8] = theme.fg.white
+--theme.tagcolor[9] = theme.fg.blu
+
 theme.dialog_ok                     = theme.confdir .. "/icons/ok.png"
 theme.poweroff_icon                 = theme.confdir .. "/icons/poweroff.png"
 theme.awesome_icon                  = theme.confdir .. "/icons/awesome.png"
 theme.submenu_icon                  = theme.confdir .. "/icons/submenu.png"
-theme.widget_temp                   = theme.confdir .. "/icons/temp.png"
-theme.widget_uptime                 = theme.confdir .. "/icons/ac.png"
-theme.widget_cpu                    = theme.confdir .. "/icons/cpu.png"
-theme.widget_weather                = theme.confdir .. "/icons/dish.png"
-theme.widget_fs                     = theme.confdir .. "/icons/fs.png"
-theme.widget_mem                    = theme.confdir .. "/icons/mem.png"
-theme.widget_fs                     = theme.confdir .. "/icons/fs.png"
+theme.widget_temp                   = theme.confdir .. "/icons/white-temp.png"
+theme.widget_uptime                 = theme.confdir .. "/icons/white-ac.png"
+theme.widget_cpu                    = theme.confdir .. "/icons/white-cpu.png"
+theme.widget_weather                = theme.confdir .. "/icons/white-dish.png"
+theme.widget_mem                    = theme.confdir .. "/icons/white-mem.png"
+theme.widget_fs                     = theme.confdir .. "/icons/white-fs.png"
 theme.widget_note                   = theme.confdir .. "/icons/note.png"
 theme.widget_note_on                = theme.confdir .. "/icons/note_on.png"
 theme.widget_netdown                = theme.confdir .. "/icons/net_down.png"
 theme.widget_netup                  = theme.confdir .. "/icons/net_up.png"
 theme.widget_mail                   = theme.confdir .. "/icons/mail.png"
-theme.widget_batt                   = theme.confdir .. "/icons/bat.png"
-theme.widget_clock                  = theme.confdir .. "/icons/clock.png"
-theme.widget_vol                    = theme.confdir .. "/icons/spkr.png"
+theme.widget_batt                   = theme.confdir .. "/icons/white-bat.png"
+theme.widget_clock                  = theme.confdir .. "/icons/white-clock.png"
+theme.widget_vol                    = theme.confdir .. "/icons/white-spkr.png"
 
 theme.taglist_squares_sel           = theme.confdir .. "/icons/square_a.png"
 theme.taglist_squares_unsel         = theme.confdir .. "/icons/square_b.png"
 
 theme.tasklist_disable_icon         = true
-theme.tasklist_floating             = ""
-theme.tasklist_maximized_horizontal = ""
-theme.tasklist_maximized_vertical   = ""
+-- theme.tasklist_floating             = ""
+-- theme.tasklist_maximized_horizontal = ""
+-- theme.tasklist_maximized_vertical   = ""
 
 theme.layout_tile                   = theme.confdir .. "/icons/tile.png"
 theme.layout_tilegaps               = theme.confdir .. "/icons/tilegaps.png"
