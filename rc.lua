@@ -102,7 +102,7 @@ local layouts = {
 -- {{{ Tags
 tags = {
    names = { "web", "term", "docs", "media", "files", "vbox", "other" },
-   layout = { layouts[1], layouts[3], layouts[4], layouts[1], layouts[7], layouts[10], layouts[1] }
+   layout = { layouts[10], layouts[3], layouts[4], layouts[10], layouts[7], layouts[10], layouts[1] }
 }
 for s = 1, screen.count() do
 -- Each screen has its own tag table.
@@ -318,7 +318,7 @@ volicon = wibox.widget.imagebox(beautiful.widget_vol)
 volumewidget = lain.widgets.alsa({
     settings = function()
         if volume_now.status == "off" then
-            volume_now.level = volume_now.level .. key_m
+            volume_now.level = volume_now.level .. "M"
         end
 
         widget:set_markup(markup("#aaaaaa", volume_now.level .. "% "))
